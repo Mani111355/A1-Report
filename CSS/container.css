@@ -33,6 +33,33 @@
   object-fit: cover;
 }
 
+/* Overlay styling */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
+
+.overlay p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
 /* Responsive design for larger screens */
 @media (min-width: 768px) {
   .box {
