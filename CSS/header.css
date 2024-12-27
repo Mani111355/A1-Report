@@ -24,19 +24,20 @@ header {
     max-height: 100%; /* Ensures the logo fits within the container */
 }
 
+/*
 .search-container {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center; /* Ensures the search box aligns with the logo */
-    width: 100%; /* Full width for smaller screens */
+    align-items: center; 
+    width: 100%; 
 }
 
 .search-wrapper {
     display: flex;
-    width: 90%; /* Constrained width */
-    max-width: 1000px; /* Prevents the search bar from growing too large on larger screens */
-    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    width: 90%; 
+    max-width: 1000px; 
+    flex-wrap: wrap; 
 }
 
 .search-box {
@@ -46,8 +47,8 @@ header {
     border-radius: 24px 0 0 24px;
     font-size: 16px;
     outline: none;
-    height: 50px; /* Consistent height with the button */
-    min-width: 0; /* Ensures the search box doesn't grow beyond the parent container */
+    height: 50px; 
+    min-width: 0;
 }
 
 .search-button {
@@ -58,10 +59,10 @@ header {
     border-radius: 0 24px 24px 0;
     cursor: pointer;
     font-size: 16px;
-    height: 50px; /* Consistent height with the search box */
+    height: 50px; 
     display: flex;
     justify-content: center;
-    align-items: center; /* Centers the text inside */
+    align-items: center;
 }
 
 .search-button:hover {
@@ -69,6 +70,7 @@ header {
     color: #FF0000;
     border: 1px solid #FF0000;
 }
+*/
 
 .social-icons {
     flex: 0 0 auto;
@@ -106,23 +108,23 @@ header {
     .logo {
         margin-bottom: 0px;
     }
-
+/*
     .search-container {
         width: 100%;
     }
 
     .search-wrapper {
-        width: 95%; /* Adjusted width for smaller screens */
+        width: 95%; 
     }
 
     .search-box {
-        font-size: 14px; /* Slightly smaller font size for mobile */
+        font-size: 14px; 
     }
 
     .search-button {
-        font-size: 14px; /* Match button text size with the search box */
+        font-size: 14px; 
     }
-
+*/
     .social-icons {
         gap: 15px; /* Adjust spacing for smaller screens */
         margin: -10px 0; /* Add some spacing for better visual balance */
